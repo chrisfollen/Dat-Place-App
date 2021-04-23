@@ -1,0 +1,48 @@
+.dining-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .dining-container > h3 {
+    padding-left: 8px;
+    padding-bottom: 12px;
+  }
+  
+  .dining-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .dining-card {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+    justify-content: left;
+    margin: 8px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    border: black 1px solid;
+    cursor: pointer;
+  }
+  
+  .dining-image > img {
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 8px;
+  }
+  
+  .dining-info {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 8px;
+  }
+  
+  .dining-info > h5 {
+    padding-bottom: 8px;
+  }

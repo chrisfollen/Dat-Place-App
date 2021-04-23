@@ -1,0 +1,343 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "title": "Moab",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/moab.jpg?alt=media&token=2037e7e2-7467-4709-a83b-ad7f48fe9dd2"
+    },
+    {
+      "id": 2,
+      "title": "Kauai",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/kauai.jpg?alt=media&token=72f7798e-e405-4df4-96d2-5f3808a20415"
+    },
+    {
+      "id": 3,
+      "title": "Iceland",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/iceland.jpg?alt=media&token=8b102de8-a9a0-41b0-a631-3cd5d0e8a4f7"
+    },
+    {
+      "id": 4,
+      "title": "Norway",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/norway.jpg?alt=media&token=d1c7eec3-8a89-46c6-87a0-17c0d38d6e6f"
+    },
+    {
+      "id": 5,
+      "title": "Sayulita, Mexico",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/sayulita.jpg?alt=media&token=eeeaa03a-d8cb-462b-ab72-a8a358892eaa"
+    },
+    {
+      "id": 6,
+      "title": "Nosara, Costa Rica",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/nosara.jpg?alt=media&token=091a7dfe-25a5-4f96-ae0f-847fd8f79033"
+    },
+    {
+      "id": 7,
+      "title": "Sand Dunes, CO",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/sand-dunes.jpg?alt=media&token=ebfbdcca-244d-44f2-9fa8-8fcc9d8866df"
+    },
+    {
+      "id": 8,
+      "title": "Telluride",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/telluride.jpg?alt=media&token=e6c0e716-5d14-4b85-b001-f098dca6f2d8"
+    },
+    {
+      "id": 9,
+      "title": "Cape Cod",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/cape-cod.jpg?alt=media&token=72a4ba91-74c9-4c14-bbd1-ff502a89a856"
+    },
+    {
+      "id": 10,
+      "title": "Boulder",
+      "image_url": "https://firebasestorage.googleapis.com/v0/b/places-app-6f491.appspot.com/o/boulder.jpg?alt=media&token=b9cd1dd4-1505-45e9-baf0-22d00ee9a4b1"
+    }
+  ],
+  "accomodations": [
+    {
+      "id": 1,
+      "destination": "Moab",
+      "type": "Camping",
+      "title": "Horsethief Campground",
+      "description": "Great spot with group campsite, but they need to be reserved months in advance",
+      "coordinates": null,
+      "link": null
+    },
+    {
+      "id": 2,
+      "destination": "Kauai",
+      "type": "Hotel",
+      "title": "Koloa Landing",
+      "description": "Beautiful resort with pools, restaurants, etc. Right by the beach. Exceptional. And priced accordingly",
+      "coordinates": null,
+      "link": "https://www.marriott.com/hotels/travel/lihak-koloa-landing-resort-at-poipu-autograph-collection/?scid=b87d2ab0-7cc5-4182-bb25-e74724ca7e36&ppc=ppc&pId=ustbppc&nst=paid&gclid=CjwKCAjwmv-DBhAMEiwA7xYrdy9Iqcu8_8LWqDiW4mvf9TIWe0hNaMpqYLqvv_KUrdX2AHTtNgeZ4hoC-tQQAvD_BwE&gclsrc=aw.ds"
+    },
+    {
+      "id": 3,
+      "destination": "Norway",
+      "type": "Camping",
+      "title": "Unstad Beach Camping",
+      "description": "Amazing, uncrowded beach to camp on for free. Sunset over the Artic Ocean also free.",
+      "coordinates": "68°16'09.8N 13°34'55.8E",
+      "link": null
+    },
+    {
+      "id": 4,
+      "destination": "Sayulita, Mexico",
+      "type": "Airbnb",
+      "title": "Jardin Del Mar Airbnb",
+      "description": "Beautiful house with incredible fenced in yard and garden. 10/10 would come again",
+      "coordinates": null,
+      "link": "https://www.airbnb.com/rooms/11717365?euid=1ee199e7-5838-de7e-db78-0f705a988b0e&guests=1&adults=1"
+    },
+    {
+      "id": 5,
+      "destination": "Sand Dunes, CO",
+      "type": "Camping",
+      "title": "BLM Land Near Sand Dunes",
+      "description": "Great spot, plenty of room to spread out. Road gets gnarlier the further you go.",
+      "coordinates": "37.526980, -105.593810",
+      "link": null
+    },
+    {
+      "id": 6,
+      "destination": "Telluride",
+      "type": "Hotel",
+      "title": "Hotel Telluride",
+      "description": "Nice place, good service, outdoor hottub is perfect",
+      "coordinates": null,
+      "link": null
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "destination": "Moab",
+      "type": "Offroading",
+      "title": "Long Canyon Road",
+      "description": "Gnarly road, wouldn't do it in a basic 4WD vehicle",
+      "coordinates": "38.54481, -109.76395",
+      "link": null
+    },
+    {
+      "id": 2,
+      "destination": "Moab",
+      "type": "Hiking",
+      "title": "Corona Arch Hike",
+      "description": "Beautiful 3 mile round-trip hike to arch. steep section with rope and a ladder, not great for dogs but towards the end. Dogs are allowed.",
+      "coordinates": null,
+      "link": "https://www.alltrails.com/trail/us/utah/corona-and-bowtie-arch-trail"
+    },
+    {
+      "id": 3,
+      "destination": "Kauai",
+      "type": "Shopping",
+      "title": "Hunter Gatherer Shop",
+      "description": "Cool shop with trendy stuff",
+      "coordinates": null,
+      "link": "https://hunter-gatherer-hawaii.mybigcommerce.com/"
+    },
+    {
+      "id": 4,
+      "destination": "Kauai",
+      "type": "Boating",
+      "title": "Napali Coast Boat Tour",
+      "description": "Awesome boat tour of the Napali Coast. Sunset cruise with dinner was wonderful",
+      "coordinates": null,
+      "link": "https://bluedolphinkauai.com/"
+    },
+    {
+      "id": 5,
+      "destination": "Iceland",
+      "type": "Relaxing",
+      "title": "Myvatn Nature Baths",
+      "description": "Rad spot if nearby. Similar to Blue Lagoon, but cheaper and less crowded",
+      "coordinates": null,
+      "link": "https://myvatnnaturebaths.is/?lang=en"
+    },
+    {
+      "id": 6,
+      "destination": "Norway",
+      "type": "Surfing",
+      "title": "Unstad Arctic Surf",
+      "description": "Surfboard & wetsuit rentals, lessons, food, and hostel. Very cool spot.",
+      "coordinates": null,
+      "link": "https://myvatnnaturebaths.is/?lang=en"
+    },
+    {
+      "id": 7,
+      "destination": "Sayulita, Mexico",
+      "type": "Surfing",
+      "title": "Sayulita Beach",
+      "description": "Great surf spot, can be busy be plenty of room to spread out. Waves best in AM",
+      "coordinates": null,
+      "link": null
+    },
+    {
+      "id": 8,
+      "destination": "Nosara, Costa Rica",
+      "type": "Other",
+      "title": "Nosara Tattoo",
+      "description": "Cool spot, good guys, did good work",
+      "coordinates": null,
+      "link": null
+    },
+    {
+      "id": 9,
+      "destination": "Kauai",
+      "type": "Relaxing",
+      "title": "Poipu Beach",
+      "description": "Watch the sunset here. Will change your life.",
+      "coordinates": null,
+      "link": null
+    },
+    {
+      "id": 10,
+      "destination": "Telluride",
+      "type": "Biking",
+      "title": "Mountain Bike Telluride Mt.",
+      "description": "Super fun downhill trails and bike park. Take the gondola up.",
+      "coordinates": null,
+      "link": null
+    },
+    {
+      "id": 11,
+      "destination": "Telluride",
+      "type": "Hiking",
+      "title": "Bridal Veil Falls",
+      "description": "Fairly short, fairly steep hike to cool waterfall overlooking town.",
+      "coordinates": null,
+      "link": null
+    },
+    {
+      "id": 12,
+      "destination": "Cape Cod",
+      "type": "Boating",
+      "title": "Kayak Swan River",
+      "description": "Rent a kayak, paddle up a river or to the ocean. Is cool.",
+      "coordinates": null,
+      "link": null
+    },
+    {
+      "id": 13,
+      "destination": "Cape Cod",
+      "type": "Offroading",
+      "title": "4 Wheel on Sandy Neck",
+      "description": "Cool spot, can drive truck on beach at low tide",
+      "coordinates": null,
+      "link": null
+    }
+  ],
+  "dining": [
+    {
+      "id": 1,
+      "destination": "Moab",
+      "type": "Restaurant",
+      "title": "98 Center",
+      "description": "Awesome Vietnamese dine-in and take-out with great vegan options",
+      "link": "https://www.98centermoab.com/"
+    },
+    {
+      "id": 2,
+      "destination": "Moab",
+      "type": "Coffeeshop",
+      "title": "Moab Coffee Roasters",
+      "description": "Decent coffee shop with baked goods and gelato",
+      "link": "http://www.moabcoffeeroasters.com/"
+    },
+    {
+      "id": 3,
+      "destination": "Kauai",
+      "type": "Food Truck",
+      "title": "Bubba Burgers",
+      "description": "Basic burger / fries place with decent food, reasonable prices",
+      "link": "https://www.bubbaburger.com/"
+    },
+    {
+      "id": 4,
+      "destination": "Kauai",
+      "type": "Restaurant",
+      "title": "The Dolphin",
+      "description": "Trendy sushi / fish place with great food",
+      "link": "https://thedolphinpoipu.com/"
+    },
+    {
+      "id": 5,
+      "destination": "Sayulita, Mexico",
+      "type": "Restaurant",
+      "title": "El Itacate",
+      "description": "Amazing tacos, Isaac is the man. We ate there almost every night.",
+      "link": null
+    },
+    {
+      "id": 6,
+      "destination": "Sayulita, Mexico",
+      "type": "Coffeeshop",
+      "title": "Anchor Cafe",
+      "description": "Trendy coffee shop with healthy breakfast and lunch options - smoothie bowls, avocado toast, etc",
+      "link": null
+    },
+    {
+      "id": 7,
+      "destination": "Telluride",
+      "type": "Restaurant",
+      "title": "La Cocina",
+      "description": "Great mexican food, breakfast, lunch, and dinner.",
+      "link": null
+    },
+    {
+      "id": 8,
+      "destination": "Telluride",
+      "type": "Coffeeshop",
+      "title": "Between the Covers",
+      "description": "Cool bookstore with a coffeeshop in back. Best coffee in town.",
+      "link": null
+    },
+    {
+      "id": 9,
+      "destination": "Telluride",
+      "type": "Restaurant",
+      "title": "Siam",
+      "description": "Great thai food, a bit pricey, hard to get a table / reservation",
+      "link": null
+    },
+    {
+      "id": 10,
+      "destination": "Telluride",
+      "type": "Cocktails",
+      "title": "Sheridan Hotel",
+      "description": "Best Old Fashioned in town, very cool atmosphere",
+      "link": null
+    },
+    {
+      "id": 11,
+      "destination": "Cape Cod",
+      "type": "Restaurant",
+      "title": "Gina's by the Sea",
+      "description": "Awesome Italian food by the beach. Gets very crowded.",
+      "link": null
+    },
+    {
+      "id": 12,
+      "destination": "Cape Cod",
+      "type": "Food Truck",
+      "title": "Sesuit Harbor Cafe",
+      "description": "Cool spot with take out, can eat overlooking harbor at picnic tables",
+      "link": null
+    },
+    {
+      "id": 13,
+      "destination": "Cape Cod",
+      "type": "Coffeeshop",
+      "title": "Marshside",
+      "description": "Has coffee and pastries in the AM, can sit by marsh and enjoy",
+      "link": null
+    },
+    {
+      "id": 14,
+      "destination": "Cape Cod",
+      "type": "Cocktails",
+      "title": "The Ocean House",
+      "description": "Rad bar overlooking the ocean, also has good food",
+      "link": null
+    }
+  ]
+}
