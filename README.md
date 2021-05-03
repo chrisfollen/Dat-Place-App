@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Dat Place
+-> Your virtual travel assistant <-
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
+- [General Info](#general-info)
+- [Intro Video](#intro-video)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Features](#features)
+- [Code Example](#code-example)
+- [Status](#status)
+- [Inspiration](#inspiration)
+- [Contact](#contact)
 
-In the project directory, you can run:
 
-### `yarn start`
+## General Info
+Dat Place is a web-based travel app that allows a user to filter recommendations based on the destination.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Intro Video
+[Dat Place](https://youtu.be/Bqc3w53eidw)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Technologies 
+- React
+- HTML
+- CSS
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup 
+To run Dat Place, fork and clone this GitHub repository. Then run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+json-server --watch db.json 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm start
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Code Example
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```jsx
+  //adds a new destination to both frontend and backend
+  addDestination = (destination) => {
+    const newDestinations = [...this.state.destinations, destination]
+    const newNextDestinationId = this.state.nextDestinationId + 1
+    this.setState({
+      destinations: newDestinations,
+      nextDestinationId: newNextDestinationId
+    })
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    fetch(destinationsURL, {
+      method: "POST",
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({id: newNextDestinationId, ...destination})
+    })
+  }
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  }
+```
 
-## Learn More
+## Features
+- Shows accomodations, activities, and food & drink options for a variety of destinations
+- Allows a user to click on a destinations card, and sort recmommendations by the selected destination
+- Each recommendation is clickable, and brings up a modal with more information  when clicked
+- The user can add a destination, or add or delete a recommendation at any time
+- All changes persist when the app reloads
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Status
+This project is currently finished. I may introduce new features or refactor existing code going forward.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Inspiration
+I built Dat Place because I like to travel, and friends are often asking me for recommendations for restaurants, camping, etc. in different places.  This app allows me to keep track of where I've been and places I'd like to return to.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Contact
+Jeopard(ish)! was created by [Chris Follen](https://www.linkedin.com/in/chrisfollen/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out!
